@@ -1,11 +1,11 @@
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv";
+
 
 import authRoutes from "./routes/authRoutes.js";
 import movieRoutes from "./routes/movieRoutes.js";
 
-dotenv.config();
+
 
 const app = express();
 
